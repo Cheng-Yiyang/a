@@ -1,0 +1,1273 @@
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.9.12-stable/darwin-amd64/go1.14
+coinbase: 0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50
+at block: 354 (Tue May 04 2021 12:25:31 GMT+0900 (JST))
+ datadir: /Users/charlie/desktop/a/data-init1
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> > ReferenceError: d is not defined
+	at <eval>:1:1(0)
+
+> > > > Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.9.12-stable/darwin-amd64/go1.14
+coinbase: 0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50
+at block: 354 (Tue May 04 2021 12:25:31 GMT+0900 (JST))
+ datadir: /Users/charlie/desktop/a/data-init1
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> null
+> Fatal: Error starting protocol stack: datadir already used by another process
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.9.12-stable/darwin-amd64/go1.14
+coinbase: 0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50
+at block: 354 (Tue May 04 2021 12:25:31 GMT+0900 (JST))
+ datadir: /Users/charlie/desktop/a/data-init1
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> ReferenceError: abi is not defined
+	at <eval>:1:21(4)
+
+> [{
+    constant: true,
+    inputs: [],
+    name: "value",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    name: "set",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "get",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "constructor"
+}]
+> ReferenceError: samplecontract is not defined
+	at <eval>:1:1(0)
+
+> ReferenceError: sample is not defined
+	at <eval>:1:16(1)
+
+> ReferenceError: samplecontract is not defined
+	at <eval>:1:1(0)
+
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  eth: {
+    accounts: ["0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50", "0x694256613ee7ad02741856f6b815f45a175e45e9"],
+    blockNumber: 354,
+    coinbase: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+    compile: {
+      lll: function(),
+      serpent: function(),
+      solidity: function()
+    },
+    defaultAccount: undefined,
+    defaultBlock: "latest",
+    gasPrice: 1000000000,
+    hashrate: 0,
+    mining: false,
+    pendingTransactions: [],
+    protocolVersion: "0x41",
+    syncing: false,
+    call: function(),
+    chainId: function(),
+    contract: function(abi),
+    estimateGas: function(),
+    fillTransaction: function(),
+    filter: function(options, callback, filterCreationErrorCallback),
+    getAccounts: function(callback),
+    getBalance: function(),
+    getBlock: function(),
+    getBlockByHash: function(),
+    getBlockByNumber: function(),
+    getBlockNumber: function(callback),
+    getBlockTransactionCount: function(),
+    getBlockUncleCount: function(),
+    getCode: function(),
+    getCoinbase: function(callback),
+    getCompilers: function(),
+    getGasPrice: function(callback),
+    getHashrate: function(callback),
+    getHeaderByHash: function(),
+    getHeaderByNumber: function(),
+    getMining: function(callback),
+    getPendingTransactions: function(callback),
+    getProof: function(),
+    getProtocolVersion: function(callback),
+    getRawTransaction: function(),
+    getRawTransactionFromBlock: function(),
+    getStorageAt: function(),
+    getSyncing: function(callback),
+    getTransaction: function(),
+    getTransactionCount: function(),
+    getTransactionFromBlock: function(),
+    getTransactionReceipt: function(),
+    getUncle: function(),
+    getWork: function(),
+    iban: function(iban),
+    icapNamereg: function(),
+    isSyncing: function(callback),
+    namereg: function(),
+    resend: function(),
+    sendIBANTransaction: function(),
+    sendRawTransaction: function(),
+    sendTransaction: function(),
+    sign: function(),
+    signTransaction: function(),
+    submitTransaction: function(),
+    submitWork: function()
+  },
+  at: function(address, callback),
+  getData: function(),
+  new: function()
+}
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  address: "0x03ff8c2a25d7dba086596b9336ee9d393dfe436e",
+  transactionHash: null,
+  allEvents: function(),
+  get: function(),
+  set: function(),
+  value: function()
+}
+> 2
+> Error: authentication needed: password or unlock
+	at web3.js:6347:37(47)
+	at web3.js:5081:62(37)
+	at web3.js:4137:41(57)
+	at <eval>:1:66(12)
+
+> SyntaxError: (anonymous): Line 1:37 Unexpected number (and 1 more errors)
+> Error: authentication needed: password or unlock
+	at web3.js:6347:37(47)
+	at web3.js:5081:62(37)
+	at web3.js:4137:41(57)
+	at <eval>:1:66(12)
+
+> undefined
+> undefined
+> TypeError: Cannot read property '0' of undefined
+	at <eval>:1:24(6)
+
+> TypeError: Cannot read property '0' of undefined
+	at <eval>:1:13(3)
+
+> ["0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50", "0x694256613ee7ad02741856f6b815f45a175e45e9"]
+> ReferenceError: peronsla is not defined
+	at <eval>:1:1(0)
+
+> Error: authentication needed: password or unlock
+	at web3.js:6347:37(47)
+	at web3.js:5081:62(37)
+	at web3.js:4137:41(57)
+	at <eval>:1:66(12)
+
+> ReferenceError: peronsla is not defined
+	at <eval>:1:1(0)
+
+> 123
+> ReferenceError: peronsla is not defined
+	at <eval>:1:1(0)
+
+> Error: authentication needed: password or unlock
+	at web3.js:6347:37(47)
+	at web3.js:5081:62(37)
+	at web3.js:4137:41(57)
+	at <eval>:1:66(12)
+
+> ReferenceError: peronsla is not defined
+	at <eval>:1:1(0)
+
+> TypeError: Object has no member 'unlockaccount'
+	at <eval>:1:23(5)
+
+> true
+> "0xdb8291e14a0b868ba50da75b0b43b3492a6b98cac18c276435a55e568fd84f55"
+> 2
+> 2
+> 2
+> 2
+> 2
+> 2
+> 2
+> 2
+> 2
+> Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.9.12-stable/darwin-amd64/go1.14
+coinbase: 0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50
+at block: 354 (Tue May 04 2021 12:25:31 GMT+0900 (JST))
+ datadir: /Users/charlie/desktop/a/data-init1
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> [{
+    constant: true,
+    inputs: [],
+    name: "value",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    name: "set",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "get",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "constructor"
+}]
+> "0x608060405234801561001057600080fd5b50604051602080610114833981016040525160005560e1806100336000396000f30060806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633fa4f2458114605757806360fe47b114607b5780636d4ce63c146092575b600080fd5b348015606257600080fd5b50606960a4565b60408051918252519081900360200190f35b348015608657600080fd5b50609060043560aa565b005b348015609d57600080fd5b50606960af565b60005481565b600055565b600054905600a165627a7a7230582084151f58c02538f867209172d079a7bc65c934502439ff9607bcfb0c1f097f000029"
+> Unlock account 0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50
+GoError: liner: function not supported in this terminal
+	at native
+	at <eval>:1:24(4)
+
+> 123
+> ReferenceError: sample is not defined
+	at <eval>:1:11(1)
+
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  eth: {
+    accounts: ["0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50", "0x694256613ee7ad02741856f6b815f45a175e45e9"],
+    blockNumber: 354,
+    coinbase: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+    compile: {
+      lll: function(),
+      serpent: function(),
+      solidity: function()
+    },
+    defaultAccount: undefined,
+    defaultBlock: "latest",
+    gasPrice: 1000000000,
+    hashrate: 0,
+    mining: false,
+    pendingTransactions: [{
+        blockHash: null,
+        blockNumber: null,
+        from: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+        gas: 3000000,
+        gasPrice: 1000000000,
+        hash: "0xdb8291e14a0b868ba50da75b0b43b3492a6b98cac18c276435a55e568fd84f55",
+        input: "0x60fe47b10000000000000000000000000000000000000000000000000000000000000005",
+        nonce: 3,
+        r: "0xc342ab9ad73e2439679a900df5a748d27e10a7beb721ad8041c9fb7a79335a23",
+        s: "0x658f3e2597483b8fa123ff800794bc63a2c67f759ba960cd9562f07af651ff63",
+        to: "0x03ff8c2a25d7dba086596b9336ee9d393dfe436e",
+        transactionIndex: null,
+        v: "0x42",
+        value: 0
+    }],
+    protocolVersion: "0x41",
+    syncing: false,
+    call: function(),
+    chainId: function(),
+    contract: function(abi),
+    estimateGas: function(),
+    fillTransaction: function(),
+    filter: function(options, callback, filterCreationErrorCallback),
+    getAccounts: function(callback),
+    getBalance: function(),
+    getBlock: function(),
+    getBlockByHash: function(),
+    getBlockByNumber: function(),
+    getBlockNumber: function(callback),
+    getBlockTransactionCount: function(),
+    getBlockUncleCount: function(),
+    getCode: function(),
+    getCoinbase: function(callback),
+    getCompilers: function(),
+    getGasPrice: function(callback),
+    getHashrate: function(callback),
+    getHeaderByHash: function(),
+    getHeaderByNumber: function(),
+    getMining: function(callback),
+    getPendingTransactions: function(callback),
+    getProof: function(),
+    getProtocolVersion: function(callback),
+    getRawTransaction: function(),
+    getRawTransactionFromBlock: function(),
+    getStorageAt: function(),
+    getSyncing: function(callback),
+    getTransaction: function(),
+    getTransactionCount: function(),
+    getTransactionFromBlock: function(),
+    getTransactionReceipt: function(),
+    getUncle: function(),
+    getWork: function(),
+    iban: function(iban),
+    icapNamereg: function(),
+    isSyncing: function(callback),
+    namereg: function(),
+    resend: function(),
+    sendIBANTransaction: function(),
+    sendRawTransaction: function(),
+    sendTransaction: function(),
+    sign: function(),
+    signTransaction: function(),
+    submitTransaction: function(),
+    submitWork: function()
+  },
+  at: function(address, callback),
+  getData: function(),
+  new: function()
+}
+> Error: authentication needed: password or unlock
+	at web3.js:6347:37(47)
+	at web3.js:5081:62(37)
+	at web3.js:3021:48(134)
+	at <eval>:1:21(15)
+
+> ReferenceError: peronsla is not defined
+	at <eval>:1:1(0)
+
+> ... SyntaxError: (anonymous): Line 1:10 Unexpected token .
+> SyntaxError: (anonymous): Line 1:10 Unexpected token .
+> > TypeError: Object has no member 'unlockaccount'
+	at <eval>:1:23(5)
+
+> ... ... ... ... ... ... Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.9.12-stable/darwin-amd64/go1.14
+coinbase: 0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50
+at block: 354 (Tue May 04 2021 12:25:31 GMT+0900 (JST))
+ datadir: /Users/charlie/desktop/a/data-init1
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> true
+> [{
+    constant: true,
+    inputs: [],
+    name: "value",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    name: "set",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "get",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "constructor"
+}]
+> "0x608060405234801561001057600080fd5b50604051602080610114833981016040525160005560e1806100336000396000f30060806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633fa4f2458114605757806360fe47b114607b5780636d4ce63c146092575b600080fd5b348015606257600080fd5b50606960a4565b60408051918252519081900360200190f35b348015608657600080fd5b50609060043560aa565b005b348015609d57600080fd5b50606960af565b60005481565b600055565b600054905600a165627a7a7230582084151f58c02538f867209172d079a7bc65c934502439ff9607bcfb0c1f097f000029"
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  eth: {
+    accounts: ["0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50", "0x694256613ee7ad02741856f6b815f45a175e45e9"],
+    blockNumber: 354,
+    coinbase: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+    compile: {
+      lll: function(),
+      serpent: function(),
+      solidity: function()
+    },
+    defaultAccount: undefined,
+    defaultBlock: "latest",
+    gasPrice: 1000000000,
+    hashrate: 0,
+    mining: false,
+    pendingTransactions: [{
+        blockHash: null,
+        blockNumber: null,
+        from: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+        gas: 3000000,
+        gasPrice: 1000000000,
+        hash: "0xdb8291e14a0b868ba50da75b0b43b3492a6b98cac18c276435a55e568fd84f55",
+        input: "0x60fe47b10000000000000000000000000000000000000000000000000000000000000005",
+        nonce: 3,
+        r: "0xc342ab9ad73e2439679a900df5a748d27e10a7beb721ad8041c9fb7a79335a23",
+        s: "0x658f3e2597483b8fa123ff800794bc63a2c67f759ba960cd9562f07af651ff63",
+        to: "0x03ff8c2a25d7dba086596b9336ee9d393dfe436e",
+        transactionIndex: null,
+        v: "0x42",
+        value: 0
+    }],
+    protocolVersion: "0x41",
+    syncing: false,
+    call: function(),
+    chainId: function(),
+    contract: function(abi),
+    estimateGas: function(),
+    fillTransaction: function(),
+    filter: function(options, callback, filterCreationErrorCallback),
+    getAccounts: function(callback),
+    getBalance: function(),
+    getBlock: function(),
+    getBlockByHash: function(),
+    getBlockByNumber: function(),
+    getBlockNumber: function(callback),
+    getBlockTransactionCount: function(),
+    getBlockUncleCount: function(),
+    getCode: function(),
+    getCoinbase: function(callback),
+    getCompilers: function(),
+    getGasPrice: function(callback),
+    getHashrate: function(callback),
+    getHeaderByHash: function(),
+    getHeaderByNumber: function(),
+    getMining: function(callback),
+    getPendingTransactions: function(callback),
+    getProof: function(),
+    getProtocolVersion: function(callback),
+    getRawTransaction: function(),
+    getRawTransactionFromBlock: function(),
+    getStorageAt: function(),
+    getSyncing: function(callback),
+    getTransaction: function(),
+    getTransactionCount: function(),
+    getTransactionFromBlock: function(),
+    getTransactionReceipt: function(),
+    getUncle: function(),
+    getWork: function(),
+    iban: function(iban),
+    icapNamereg: function(),
+    isSyncing: function(callback),
+    namereg: function(),
+    resend: function(),
+    sendIBANTransaction: function(),
+    sendRawTransaction: function(),
+    sendTransaction: function(),
+    sign: function(),
+    signTransaction: function(),
+    submitTransaction: function(),
+    submitWork: function()
+  },
+  at: function(address, callback),
+  getData: function(),
+  new: function()
+}
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  address: undefined,
+  transactionHash: "0xa290f0381f462fea525f0094920594b1f15fa595d79e84ac6bbef2fd394351ae"
+}
+> null
+> ReferenceError: samplecontract is not defined
+	at <eval>:1:1(0)
+
+> function(address, callback)
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  address: undefined,
+  transactionHash: "0xb6c7464470dcd2b9db682bddd28970d4f5fc73cf82b49d61d379353107421f75"
+}
+> null
+> null
+> null
+> SyntaxError: (anonymous): Line 1:1 Unexpected token ILLEGAL (and 1 more errors)
+> null
+> Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.9.12-stable/darwin-amd64/go1.14
+coinbase: 0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50
+at block: 817 (Tue May 04 2021 14:23:43 GMT+0900 (JST))
+ datadir: /Users/charlie/desktop/a/data-init1
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> true
+> true
+> [{
+    constant: true,
+    inputs: [],
+    name: "value",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    name: "set",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "get",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "constructor"
+}]
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  eth: {
+    accounts: ["0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50", "0x694256613ee7ad02741856f6b815f45a175e45e9"],
+    blockNumber: 817,
+    coinbase: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+    compile: {
+      lll: function(),
+      serpent: function(),
+      solidity: function()
+    },
+    defaultAccount: undefined,
+    defaultBlock: "latest",
+    gasPrice: 1000000000,
+    hashrate: 0,
+    mining: false,
+    pendingTransactions: [{
+        blockHash: null,
+        blockNumber: null,
+        from: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+        gas: 3000000,
+        gasPrice: 1000000000,
+        hash: "0xdb8291e14a0b868ba50da75b0b43b3492a6b98cac18c276435a55e568fd84f55",
+        input: "0x60fe47b10000000000000000000000000000000000000000000000000000000000000005",
+        nonce: 3,
+        r: "0xc342ab9ad73e2439679a900df5a748d27e10a7beb721ad8041c9fb7a79335a23",
+        s: "0x658f3e2597483b8fa123ff800794bc63a2c67f759ba960cd9562f07af651ff63",
+        to: "0x03ff8c2a25d7dba086596b9336ee9d393dfe436e",
+        transactionIndex: null,
+        v: "0x42",
+        value: 0
+    }, {
+        blockHash: null,
+        blockNumber: null,
+        from: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+        gas: 3000000,
+        gasPrice: 1000000000,
+        hash: "0xa290f0381f462fea525f0094920594b1f15fa595d79e84ac6bbef2fd394351ae",
+        input: "0x608060405234801561001057600080fd5b50604051602080610114833981016040525160005560e1806100336000396000f30060806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633fa4f2458114605757806360fe47b114607b5780636d4ce63c146092575b600080fd5b348015606257600080fd5b50606960a4565b60408051918252519081900360200190f35b348015608657600080fd5b50609060043560aa565b005b348015609d57600080fd5b50606960af565b60005481565b600055565b600054905600a165627a7a7230582084151f58c02538f867209172d079a7bc65c934502439ff9607bcfb0c1f097f0000290000000000000000000000000000000000000000000000000000000000000001",
+        nonce: 4,
+        r: "0xe780db7c602c24903c42c1cb4b2f349945adff0520837b8860b470c386cc3032",
+        s: "0x3695acd11401f57cde840ed0b4ef33a5944bb2f260ebb22c10f59d10999fc56e",
+        to: null,
+        transactionIndex: null,
+        v: "0x42",
+        value: 0
+    }, {
+        blockHash: null,
+        blockNumber: null,
+        from: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+        gas: 3000000,
+        gasPrice: 1000000000,
+        hash: "0xb6c7464470dcd2b9db682bddd28970d4f5fc73cf82b49d61d379353107421f75",
+        input: "0x608060405234801561001057600080fd5b50604051602080610114833981016040525160005560e1806100336000396000f30060806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633fa4f2458114605757806360fe47b114607b5780636d4ce63c146092575b600080fd5b348015606257600080fd5b50606960a4565b60408051918252519081900360200190f35b348015608657600080fd5b50609060043560aa565b005b348015609d57600080fd5b50606960af565b60005481565b600055565b600054905600a165627a7a7230582084151f58c02538f867209172d079a7bc65c934502439ff9607bcfb0c1f097f0000290000000000000000000000000000000000000000000000000000000000000001",
+        nonce: 5,
+        r: "0xadc8725c478cffc89aad165421a4efbcd899c3da2ad3008db9981dbf1aa039b0",
+        s: "0x724af9048249eb5e498afed39fab9b6ebf8e2d250f5d198e231f9b2e6e3e8650",
+        to: null,
+        transactionIndex: null,
+        v: "0x42",
+        value: 0
+    }, {
+        blockHash: null,
+        blockNumber: null,
+        from: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+        gas: 3000000,
+        gasPrice: 1000000000,
+        hash: "0xfc47c2331c4b7dd6f92f6d59e39b0a5d4995490f7a6c3eda527cea5e7725161b",
+        input: "0x608060405234801561001057600080fd5b50604051602080610114833981016040525160005560e1806100336000396000f30060806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633fa4f2458114605757806360fe47b114607b5780636d4ce63c146092575b600080fd5b348015606257600080fd5b50606960a4565b60408051918252519081900360200190f35b348015608657600080fd5b50609060043560aa565b005b348015609d57600080fd5b50606960af565b60005481565b600055565b600054905600a165627a7a7230582084151f58c02538f867209172d079a7bc65c934502439ff9607bcfb0c1f097f0000290000000000000000000000000000000000000000000000000000000000000001",
+        nonce: 6,
+        r: "0x10e99718deae7497c46ec2b1a7dab58d0a9a82d6f3e04679fdfc5fc7bebbc5b2",
+        s: "0x244859a673e6794735c76f481f2d2ff0e3efe0f3190d3ffd8b4ef230b1fad126",
+        to: null,
+        transactionIndex: null,
+        v: "0x41",
+        value: 0
+    }],
+    protocolVersion: "0x41",
+    syncing: false,
+    call: function(),
+    chainId: function(),
+    contract: function(abi),
+    estimateGas: function(),
+    fillTransaction: function(),
+    filter: function(options, callback, filterCreationErrorCallback),
+    getAccounts: function(callback),
+    getBalance: function(),
+    getBlock: function(),
+    getBlockByHash: function(),
+    getBlockByNumber: function(),
+    getBlockNumber: function(callback),
+    getBlockTransactionCount: function(),
+    getBlockUncleCount: function(),
+    getCode: function(),
+    getCoinbase: function(callback),
+    getCompilers: function(),
+    getGasPrice: function(callback),
+    getHashrate: function(callback),
+    getHeaderByHash: function(),
+    getHeaderByNumber: function(),
+    getMining: function(callback),
+    getPendingTransactions: function(callback),
+    getProof: function(),
+    getProtocolVersion: function(callback),
+    getRawTransaction: function(),
+    getRawTransactionFromBlock: function(),
+    getStorageAt: function(),
+    getSyncing: function(callback),
+    getTransaction: function(),
+    getTransactionCount: function(),
+    getTransactionFromBlock: function(),
+    getTransactionReceipt: function(),
+    getUncle: function(),
+    getWork: function(),
+    iban: function(iban),
+    icapNamereg: function(),
+    isSyncing: function(callback),
+    namereg: function(),
+    resend: function(),
+    sendIBANTransaction: function(),
+    sendRawTransaction: function(),
+    sendTransaction: function(),
+    sign: function(),
+    signTransaction: function(),
+    submitTransaction: function(),
+    submitWork: function()
+  },
+  at: function(address, callback),
+  getData: function(),
+  new: function()
+}
+> "0x608060405234801561001057600080fd5b50604051602080610114833981016040525160005560e1806100336000396000f30060806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633fa4f2458114605757806360fe47b114607b5780636d4ce63c146092575b600080fd5b348015606257600080fd5b50606960a4565b60408051918252519081900360200190f35b348015608657600080fd5b50609060043560aa565b005b348015609d57600080fd5b50606960af565b60005481565b600055565b600054905600a165627a7a7230582084151f58c02538f867209172d079a7bc65c934502439ff9607bcfb0c1f097f000029"
+> > {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  address: undefined,
+  transactionHash: "0xda7d20684c113d01798c6a96b691531dfcfec3a109892a9bb07e006024ec7a5c"
+}
+> {
+  blockHash: "0x81b874ee552348177f5e84598491a0265dcff03a4c873dd28df792b5f40f191f",
+  blockNumber: 818,
+  contractAddress: "0x6b6eaf91ba1ec5ebf2a317925c2290b3ee94c2a7",
+  cumulativeGasUsed: 562997,
+  from: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+  gasUsed: 134093,
+  logs: [],
+  logsBloom: "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  root: "0x11650de57ad8e0d38725679028494c8e908c6ea6c6a55ba96c89d294e94334ef",
+  to: null,
+  transactionHash: "0xda7d20684c113d01798c6a96b691531dfcfec3a109892a9bb07e006024ec7a5c",
+  transactionIndex: 4
+}
+> ... ... ... ... ... ... Fatal: Error starting protocol stack: datadir already used by another process
+Fatal: Error starting protocol stack: datadir already used by another process
+Fatal: Error starting protocol stack: datadir already used by another process
+Fatal: Error starting protocol stack: datadir already used by another process
+Fatal: Error starting protocol stack: datadir already used by another process
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.9.12-stable/darwin-amd64/go1.14
+coinbase: 0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50
+at block: 817 (Tue May 04 2021 14:23:43 GMT+0900 (JST))
+ datadir: /Users/charlie/desktop/a/data-init1
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> true
+> true
+> [{
+    constant: true,
+    inputs: [],
+    name: "value",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    name: "set",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "get",
+    outputs: [{
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    inputs: [{
+        name: "v",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "constructor"
+}]
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  eth: {
+    accounts: ["0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50", "0x694256613ee7ad02741856f6b815f45a175e45e9"],
+    blockNumber: 836,
+    coinbase: "0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50",
+    compile: {
+      lll: function(),
+      serpent: function(),
+      solidity: function()
+    },
+    defaultAccount: undefined,
+    defaultBlock: "latest",
+    gasPrice: 1000000000,
+    hashrate: 0,
+    mining: false,
+    pendingTransactions: [],
+    protocolVersion: "0x41",
+    syncing: false,
+    call: function(),
+    chainId: function(),
+    contract: function(abi),
+    estimateGas: function(),
+    fillTransaction: function(),
+    filter: function(options, callback, filterCreationErrorCallback),
+    getAccounts: function(callback),
+    getBalance: function(),
+    getBlock: function(),
+    getBlockByHash: function(),
+    getBlockByNumber: function(),
+    getBlockNumber: function(callback),
+    getBlockTransactionCount: function(),
+    getBlockUncleCount: function(),
+    getCode: function(),
+    getCoinbase: function(callback),
+    getCompilers: function(),
+    getGasPrice: function(callback),
+    getHashrate: function(callback),
+    getHeaderByHash: function(),
+    getHeaderByNumber: function(),
+    getMining: function(callback),
+    getPendingTransactions: function(callback),
+    getProof: function(),
+    getProtocolVersion: function(callback),
+    getRawTransaction: function(),
+    getRawTransactionFromBlock: function(),
+    getStorageAt: function(),
+    getSyncing: function(callback),
+    getTransaction: function(),
+    getTransactionCount: function(),
+    getTransactionFromBlock: function(),
+    getTransactionReceipt: function(),
+    getUncle: function(),
+    getWork: function(),
+    iban: function(iban),
+    icapNamereg: function(),
+    isSyncing: function(callback),
+    namereg: function(),
+    resend: function(),
+    sendIBANTransaction: function(),
+    sendRawTransaction: function(),
+    sendTransaction: function(),
+    sign: function(),
+    signTransaction: function(),
+    submitTransaction: function(),
+    submitWork: function()
+  },
+  at: function(address, callback),
+  getData: function(),
+  new: function()
+}
+> ReferenceError: SampleHEX is not defined
+	at <eval>:1:51(11)
+
+> SyntaxError: (anonymous): Line 1:11 Unexpected token ILLEGAL
+> "0x608060405234801561001057600080fd5b50604051602080610114833981016040525160005560e1806100336000396000f30060806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633fa4f2458114605757806360fe47b114607b5780636d4ce63c146092575b600080fd5b348015606257600080fd5b50606960a4565b60408051918252519081900360200190f35b348015608657600080fd5b50609060043560aa565b005b348015609d57600080fd5b50606960af565b60005481565b600055565b600054905600a165627a7a7230582084151f58c02538f867209172d079a7bc65c934502439ff9607bcfb0c1f097f000029"
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  address: undefined,
+  transactionHash: "0xd4dbf2080b8ae1bf4251ee7ee74d284d02f1772812ce3a4e4c2b2d7472f49c5e"
+}
+> null
+> null
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  address: undefined,
+  transactionHash: "0x1719649d9aa57dd99bb15ac4de7ca80d58ca722ed863da0192834fdd66111dda"
+}
+> null
+> ReferenceError: samplecontract is not defined
+	at <eval>:1:1(0)
+
+> {
+  abi: [{
+      constant: true,
+      inputs: [],
+      name: "value",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      stateMutability: "view",
+      type: "function"
+  }, {
+      inputs: [{...}],
+      payable: false,
+      stateMutability: "nonpayable",
+      type: "constructor"
+  }],
+  address: "0x1719649d9aa57dd99bb15ac4de7ca80d58ca722ed863da0192834fdd66111dda",
+  transactionHash: null,
+  allEvents: function(),
+  get: function(),
+  set: function(),
+  value: function()
+}
+> Error: invalid address
+	at web3.js:3930:11(47)
+	at web3.js:3734:43(30)
+	at web3.js:5025:37(8)
+	at web3.js:5024:12(13)
+	at web3.js:5050:34(20)
+	at web3.js:5075:39(15)
+	at web3.js:4102:36(54)
+	at <eval>:1:1(3)
+
+> Error: invalid address
+	at web3.js:3930:11(47)
+	at web3.js:3734:43(30)
+	at web3.js:5025:37(8)
+	at web3.js:5024:12(13)
+	at web3.js:5050:34(20)
+	at web3.js:5075:39(15)
+	at web3.js:4102:36(54)
+	at <eval>:1:1(3)
+
+> 

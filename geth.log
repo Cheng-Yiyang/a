@@ -1,0 +1,190 @@
+INFO [05-19|20:55:01.717] Starting Geth on Ethereum mainnet... 
+INFO [05-19|20:55:01.717] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [05-19|20:55:01.721] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [05-19|20:55:01.725] Sanitizing cache to Go's GC limits       provided=4096 updated=2730
+INFO [05-19|20:55:01.727] Set global gas cap                       cap=25,000,000
+INFO [05-19|20:55:01.727] Allocated trie memory caches             clean=409.00MiB dirty=682.00MiB
+INFO [05-19|20:55:01.729] Allocated cache and file handles         database=/Users/charlie/desktop/a/data-init1/geth/chaindata cache=1.33GiB handles=5120
+INFO [05-19|20:55:02.165] Opened ancient database                  database=/Users/charlie/desktop/a/data-init1/geth/chaindata/ancient readonly=false
+INFO [05-19|20:55:02.173] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>, YOLO v3: <nil>, Engine: unknown}"
+INFO [05-19|20:55:02.175] Disk storage enabled for ethash caches   dir=/Users/charlie/desktop/a/data-init1/geth/ethash count=3
+INFO [05-19|20:55:02.175] Disk storage enabled for ethash DAGs     dir=/Users/charlie/Library/Ethash count=2
+INFO [05-19|20:55:02.178] Initialising Ethereum protocol           network=22 dbversion=8
+INFO [05-19|20:55:02.180] Loaded most recent local header          number=9013 hash=b2d305..95f53e td=5,036,609,240 age=4h18m1s
+INFO [05-19|20:55:02.182] Loaded most recent local full block      number=9013 hash=b2d305..95f53e td=5,036,609,240 age=4h18m1s
+INFO [05-19|20:55:02.182] Loaded most recent local fast block      number=9013 hash=b2d305..95f53e td=5,036,609,240 age=4h18m1s
+INFO [05-19|20:55:02.191] Setting new local account                address=0xD095BCb3E0B89b4E6353e59d526EA88E726ECf50
+INFO [05-19|20:55:02.191] Loaded local transaction journal         transactions=2 dropped=0
+INFO [05-19|20:55:02.192] Regenerated local transaction journal    transactions=2 accounts=1
+WARN [05-19|20:55:02.193] Switch sync mode from fast sync to full sync 
+WARN [05-19|20:55:02.197] Unclean shutdown detected                booted=2021-05-08T21:20:57+0900 age=1w3d23h
+WARN [05-19|20:55:02.197] Unclean shutdown detected                booted=2021-05-08T21:57:50+0900 age=1w3d22h
+WARN [05-19|20:55:02.197] Unclean shutdown detected                booted=2021-05-09T20:43:56+0900 age=1w3d11m
+INFO [05-19|20:55:02.197] Starting peer-to-peer node               instance=Geth/v1.10.3-stable/darwin-amd64/go1.16.3
+INFO [05-19|20:55:02.348] New local node record                    seq=42 id=8768233d5deb1010 ip=127.0.0.1 udp=0 tcp=30303
+INFO [05-19|20:55:02.348] Started P2P networking                   self="enode://4f5b1e1d5e8e15b5ded6db7da3601e18223e6aaeb1aea7552b765513c689a60800940ae86eca51fccec854decd019b01ce3fa9a47e16bf3bdc475add8db9c64a@127.0.0.1:30303?discport=0"
+INFO [05-19|20:55:02.349] IPC endpoint opened                      url=/Users/charlie/desktop/a/data-init1/geth.ipc
+INFO [05-19|20:55:02.350] HTTP server started                      endpoint=133.27.171.202:8545 prefix= cors= vhosts=localhost
+INFO [05-19|20:55:02.396] Etherbase automatically configured       address=0xD095BCb3E0B89b4E6353e59d526EA88E726ECf50
+INFO [05-19|20:56:28.235] HTTP server stopped                      endpoint=133.27.171.202:8545
+INFO [05-19|20:56:28.235] IPC endpoint closed                      url=/Users/charlie/desktop/a/data-init1/geth.ipc
+INFO [05-19|20:56:28.236] Ethereum protocol stopped 
+INFO [05-19|20:56:28.237] Transaction pool stopped 
+INFO [05-19|20:56:28.242] Writing cached state to disk             block=9013 hash=b2d305..95f53e root=7666b4..5670f4
+INFO [05-19|20:56:28.243] Persisted trie from memory database      nodes=0 size=0.00B time="5.733µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|20:56:28.243] Writing cached state to disk             block=9012 hash=4e5ffd..3b3d0b root=005f71..0c150f
+INFO [05-19|20:56:28.243] Persisted trie from memory database      nodes=0 size=0.00B time="1.283µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|20:56:28.244] Writing cached state to disk             block=8886 hash=2138f5..038004 root=d276d5..9d11c9
+INFO [05-19|20:56:28.244] Persisted trie from memory database      nodes=0 size=0.00B time="4.182µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|20:56:28.244] Writing snapshot state to disk           root=fc4148..fa710c
+INFO [05-19|20:56:28.244] Persisted trie from memory database      nodes=0 size=0.00B time="4.624µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|20:56:28.244] Writing clean trie cache to disk         path=/Users/charlie/desktop/a/data-init1/geth/triecache threads=8
+INFO [05-19|20:56:28.249] Persisted the clean trie cache           path=/Users/charlie/desktop/a/data-init1/geth/triecache elapsed=3.562ms
+INFO [05-19|20:56:28.249] Blockchain stopped 
+INFO [05-19|20:57:14.907] Starting Geth on Ethereum mainnet... 
+INFO [05-19|20:57:14.907] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [05-19|20:57:14.910] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [05-19|20:57:14.912] Sanitizing cache to Go's GC limits       provided=4096 updated=2730
+INFO [05-19|20:57:14.915] Set global gas cap                       cap=25,000,000
+INFO [05-19|20:57:14.915] Allocated trie memory caches             clean=409.00MiB dirty=682.00MiB
+INFO [05-19|20:57:14.915] Allocated cache and file handles         database=/Users/charlie/desktop/a/data-init1/geth/chaindata cache=1.33GiB handles=5120
+INFO [05-19|20:57:15.256] Opened ancient database                  database=/Users/charlie/desktop/a/data-init1/geth/chaindata/ancient readonly=false
+INFO [05-19|20:57:15.259] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>, YOLO v3: <nil>, Engine: unknown}"
+INFO [05-19|20:57:15.261] Disk storage enabled for ethash caches   dir=/Users/charlie/desktop/a/data-init1/geth/ethash count=3
+INFO [05-19|20:57:15.261] Disk storage enabled for ethash DAGs     dir=/Users/charlie/Library/Ethash count=2
+INFO [05-19|20:57:15.263] Initialising Ethereum protocol           network=22 dbversion=8
+INFO [05-19|20:57:15.265] Loaded most recent local header          number=9013 hash=b2d305..95f53e td=5,036,609,240 age=4h20m14s
+INFO [05-19|20:57:15.265] Loaded most recent local full block      number=9013 hash=b2d305..95f53e td=5,036,609,240 age=4h20m14s
+INFO [05-19|20:57:15.265] Loaded most recent local fast block      number=9013 hash=b2d305..95f53e td=5,036,609,240 age=4h20m14s
+INFO [05-19|20:57:15.269] Setting new local account                address=0xD095BCb3E0B89b4E6353e59d526EA88E726ECf50
+INFO [05-19|20:57:15.269] Loaded local transaction journal         transactions=2 dropped=0
+INFO [05-19|20:57:15.269] Regenerated local transaction journal    transactions=2 accounts=1
+WARN [05-19|20:57:15.269] Switch sync mode from fast sync to full sync 
+WARN [05-19|20:57:15.270] Unclean shutdown detected                booted=2021-05-08T21:20:57+0900 age=1w3d23h
+WARN [05-19|20:57:15.270] Unclean shutdown detected                booted=2021-05-08T21:57:50+0900 age=1w3d22h
+WARN [05-19|20:57:15.270] Unclean shutdown detected                booted=2021-05-09T20:43:56+0900 age=1w3d13m
+INFO [05-19|20:57:15.270] Starting peer-to-peer node               instance=Geth/v1.10.3-stable/darwin-amd64/go1.16.3
+INFO [05-19|20:57:15.405] New local node record                    seq=43 id=8768233d5deb1010 ip=127.0.0.1 udp=0 tcp=30303
+INFO [05-19|20:57:15.405] Started P2P networking                   self="enode://4f5b1e1d5e8e15b5ded6db7da3601e18223e6aaeb1aea7552b765513c689a60800940ae86eca51fccec854decd019b01ce3fa9a47e16bf3bdc475add8db9c64a@127.0.0.1:30303?discport=0"
+INFO [05-19|20:57:15.406] IPC endpoint opened                      url=/Users/charlie/desktop/a/data-init1/geth.ipc
+INFO [05-19|20:57:15.407] HTTP server started                      endpoint=133.27.171.202:8545 prefix= cors= vhosts=localhost
+INFO [05-19|20:57:15.444] Etherbase automatically configured       address=0xD095BCb3E0B89b4E6353e59d526EA88E726ECf50
+INFO [05-19|20:57:23.798] HTTP server stopped                      endpoint=133.27.171.202:8545
+INFO [05-19|20:57:23.799] IPC endpoint closed                      url=/Users/charlie/desktop/a/data-init1/geth.ipc
+INFO [05-19|20:57:23.799] Ethereum protocol stopped 
+INFO [05-19|20:57:23.799] Transaction pool stopped 
+INFO [05-19|20:57:23.800] Writing cached state to disk             block=9013 hash=b2d305..95f53e root=7666b4..5670f4
+INFO [05-19|20:57:23.800] Persisted trie from memory database      nodes=0 size=0.00B time="3.837µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|20:57:23.800] Writing cached state to disk             block=9012 hash=4e5ffd..3b3d0b root=005f71..0c150f
+INFO [05-19|20:57:23.800] Persisted trie from memory database      nodes=0 size=0.00B time="1.61µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|20:57:23.802] Writing cached state to disk             block=8886 hash=2138f5..038004 root=d276d5..9d11c9
+INFO [05-19|20:57:23.802] Persisted trie from memory database      nodes=0 size=0.00B time="5.392µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|20:57:23.802] Writing snapshot state to disk           root=fc4148..fa710c
+INFO [05-19|20:57:23.802] Persisted trie from memory database      nodes=0 size=0.00B time="1.256µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|20:57:23.802] Writing clean trie cache to disk         path=/Users/charlie/desktop/a/data-init1/geth/triecache threads=8
+INFO [05-19|20:57:23.805] Persisted the clean trie cache           path=/Users/charlie/desktop/a/data-init1/geth/triecache elapsed=3.015ms
+INFO [05-19|20:57:23.805] Blockchain stopped 
+INFO [05-19|21:26:20.227] Starting Geth on Ethereum mainnet... 
+INFO [05-19|21:26:20.228] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [05-19|21:26:20.232] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [05-19|21:26:20.234] Sanitizing cache to Go's GC limits       provided=4096 updated=2730
+INFO [05-19|21:26:20.237] Set global gas cap                       cap=25,000,000
+INFO [05-19|21:26:20.238] Allocated trie memory caches             clean=409.00MiB dirty=682.00MiB
+INFO [05-19|21:26:20.241] Allocated cache and file handles         database=/Users/charlie/Library/Ethereum/geth/chaindata cache=1.33GiB handles=5120
+INFO [05-19|21:26:20.763] Opened ancient database                  database=/Users/charlie/Library/Ethereum/geth/chaindata/ancient readonly=false
+INFO [05-19|21:26:20.769] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, YOLO v3: <nil>, Engine: ethash}"
+INFO [05-19|21:26:20.771] Disk storage enabled for ethash caches   dir=/Users/charlie/Library/Ethereum/geth/ethash count=3
+INFO [05-19|21:26:20.772] Disk storage enabled for ethash DAGs     dir=/Users/charlie/Library/Ethash count=2
+INFO [05-19|21:26:20.773] Initialising Ethereum protocol           network=1 dbversion=8
+INFO [05-19|21:26:20.789] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y1mo2w
+INFO [05-19|21:26:20.789] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y1mo2w
+INFO [05-19|21:26:20.789] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y1mo2w
+INFO [05-19|21:26:20.792] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-19|21:26:20.792] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-19|21:26:20.851] Allocated fast sync bloom                size=1.33GiB
+INFO [05-19|21:26:20.861] Starting peer-to-peer node               instance=Geth/v1.10.3-stable/darwin-amd64/go1.16.3
+INFO [05-19|21:26:20.954] New local node record                    seq=3 id=99ab83b4c3fe408c ip=127.0.0.1 udp=30303 tcp=30303
+INFO [05-19|21:26:20.956] Started P2P networking                   self=enode://59d07146ea29a727fe7c25fe4e88a7b0a08c73a79b1f4e898caa734d83c0fc7d5f95f7c06d60e7a30a00ea97059943ca075e001998989a991c77aa3f3ca21930@127.0.0.1:30303
+INFO [05-19|21:26:20.959] Initialized state bloom                  items=12356 errorrate=0.000 elapsed=104.678ms
+INFO [05-19|21:26:20.964] IPC endpoint opened                      url=/Users/charlie/Library/Ethereum/geth.ipc
+WARN [05-19|21:26:21.019] Served eth_coinbase                      reqid=3 t="20.641µs" err="etherbase must be explicitly specified"
+INFO [05-19|21:26:24.362] New local node record                    seq=4 id=99ab83b4c3fe408c ip=133.27.134.176 udp=30303 tcp=30303
+INFO [05-19|21:26:31.356] Looking for peers                        peercount=0 tried=22 static=0
+INFO [05-19|21:26:35.890] Block synchronisation started 
+INFO [05-19|21:26:41.848] Looking for peers                        peercount=2 tried=27 static=0
+INFO [05-19|21:26:44.331] Imported new state entries               count=445 elapsed="3.185µs" processed=445 pending=7121 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:44.411] Imported new block headers               count=192 elapsed=642.637ms number=192 hash=723899..123390 age=5y10mo2w
+INFO [05-19|21:26:44.411] Downloader queue stats                   receiptTasks=0 blockTasks=171 itemSize=109.57B throttle=8192
+INFO [05-19|21:26:44.414] Wrote genesis to ancients 
+INFO [05-19|21:26:44.584] Imported new block receipts              count=2   elapsed=171.801ms number=2   hash=b495a1..4698c9 age=5y10mo2w size=1.69KiB
+INFO [05-19|21:26:44.770] Imported new state entries               count=384 elapsed="4.514µs" processed=829 pending=13265 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:44.964] Imported new block receipts              count=4   elapsed=211.097ms number=6   hash=1f1aed..6b326e age=5y10mo2w size=3.30KiB
+INFO [05-19|21:26:45.148] Imported new state entries               count=384 elapsed="3.534µs" processed=1213 pending=19408 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:45.937] Imported new state entries               count=768 elapsed=3.650ms   processed=1981 pending=21751 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:46.654] Imported new state entries               count=768 elapsed=6.042ms   processed=2749 pending=21263 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:47.730] Imported new state entries               count=1152 elapsed=11.542ms  processed=3901 pending=20514 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:48.480] Imported new state entries               count=768  elapsed=5.894ms   processed=4669 pending=20205 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:49.199] Imported new state entries               count=768  elapsed=7.258ms   processed=5437 pending=20023 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:49.914] Imported new state entries               count=768  elapsed=4.104ms   processed=6205 pending=22108 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:51.886] Looking for peers                        peercount=2 tried=26 static=0
+INFO [05-19|21:26:52.011] Imported new state entries               count=2304 elapsed=14.542ms  processed=8509 pending=20697 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:54.464] Imported new state entries               count=1920 elapsed=19.063ms  processed=10429 pending=19641 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:55.359] Imported new state entries               count=768  elapsed=6.928ms   processed=11197 pending=19814 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:56.452] Imported new state entries               count=1152 elapsed=10.398ms  processed=12349 pending=19621 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:57.165] Imported new state entries               count=768  elapsed=6.171ms   processed=13117 pending=19101 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:57.878] Imported new state entries               count=768  elapsed=5.424ms   processed=13885 pending=19969 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:26:58.588] Imported new state entries               count=768  elapsed=4.500ms   processed=14653 pending=20940 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:00.351] Imported new state entries               count=1920 elapsed=14.320ms  processed=16573 pending=19391 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:01.406] Imported new state entries               count=1152 elapsed=7.133ms   processed=17725 pending=20072 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:02.082] Looking for peers                        peercount=2 tried=27 static=0
+INFO [05-19|21:27:02.114] Imported new state entries               count=768  elapsed=5.814ms   processed=18493 pending=19725 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:03.174] Imported new state entries               count=1152 elapsed=10.666ms  processed=19645 pending=19105 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:03.881] Imported new state entries               count=768  elapsed=7.860ms   processed=20413 pending=18620 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:04.590] Imported new state entries               count=768  elapsed=5.947ms   processed=21181 pending=19567 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:05.699] Imported new state entries               count=1152 elapsed=14.147ms  processed=22333 pending=18768 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:06.421] Imported new state entries               count=768  elapsed=9.669ms   processed=23101 pending=19012 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:07.484] Imported new state entries               count=1152 elapsed=13.327ms  processed=24253 pending=18352 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:08.200] Imported new state entries               count=768  elapsed=6.143ms   processed=25021 pending=18919 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:09.265] Imported new state entries               count=1152 elapsed=11.952ms  processed=26173 pending=18226 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:09.980] Imported new state entries               count=768  elapsed=6.451ms   processed=26941 pending=18593 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:10.694] Imported new state entries               count=768  elapsed=8.406ms   processed=27709 pending=18024 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:11.415] Imported new state entries               count=768  elapsed=7.202ms   processed=28477 pending=18783 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:12.131] Imported new state entries               count=768  elapsed=8.116ms   processed=29245 pending=18301 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:13.248] Imported new state entries               count=1152 elapsed=14.747ms  processed=30397 pending=18778 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:14.321] Imported new state entries               count=1152 elapsed=7.612ms   processed=31549 pending=18187 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:15.409] Imported new state entries               count=1152 elapsed=8.232ms   processed=32701 pending=18619 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:16.532] Imported new state entries               count=1152 elapsed=10.236ms  processed=33853 pending=17867 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:17.677] Imported new state entries               count=1152 elapsed=8.540ms   processed=35005 pending=17616 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:18.400] Imported new state entries               count=768  elapsed=6.483ms   processed=35773 pending=18010 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:19.464] Imported new state entries               count=1152 elapsed=8.905ms   processed=36925 pending=17284 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:20.169] Imported new state entries               count=768  elapsed=5.989ms   processed=37693 pending=17548 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:21.228] Imported new state entries               count=1152 elapsed=9.043ms   processed=38845 pending=17060 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:21.944] Imported new state entries               count=768  elapsed=4.799ms   processed=39613 pending=17876 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:22.352] Looking for peers                        peercount=3 tried=21 static=0
+INFO [05-19|21:27:23.005] Imported new state entries               count=1152 elapsed=8.160ms   processed=40765 pending=17042 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:23.712] Imported new state entries               count=768  elapsed=5.119ms   processed=41533 pending=17902 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:24.795] Imported new state entries               count=1152 elapsed=7.665ms   processed=42685 pending=17712 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:25.858] Imported new state entries               count=1152 elapsed=8.711ms   processed=43837 pending=16920 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:26.574] Imported new state entries               count=768  elapsed=5.423ms   processed=44605 pending=17677 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:27.650] Imported new state entries               count=1152 elapsed=19.659ms  processed=45757 pending=17009 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:28.365] Imported new state entries               count=768  elapsed=9.401ms   processed=46525 pending=16476 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:29.075] Imported new state entries               count=768  elapsed=8.381ms   processed=47293 pending=17252 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:30.143] Imported new state entries               count=1152 elapsed=12.667ms  processed=48445 pending=18133 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+INFO [05-19|21:27:31.163] IPC endpoint closed                      url=/Users/charlie/Library/Ethereum/geth.ipc
+INFO [05-19|21:27:31.203] Deallocated state bloom                  items=59348 errorrate=0.000
+INFO [05-19|21:27:31.205] Loaded most recent local header          number=192 hash=723899..123390 td=3,453,055,867,795 age=5y10mo2w
+INFO [05-19|21:27:31.206] Loaded most recent local full block      number=0   hash=d4e567..cb8fa3 td=17,179,869,184    age=52y1mo2w
+INFO [05-19|21:27:31.206] Loaded most recent local fast block      number=0   hash=d4e567..cb8fa3 td=17,179,869,184    age=52y1mo2w
+INFO [05-19|21:27:31.206] Loaded last fast-sync pivot marker       number=12,464,742
+WARN [05-19|21:27:31.206] Rolled back chain segment                header=192->192 fast=6->0 block=0->0 reason="syncing canceled (requested)"
+INFO [05-19|21:27:31.207] Imported new state entries               count=1152 elapsed=3.519ms   processed=49597 pending=17194 trieretry=0 coderetry=0 duplicate=0 unexpected=0
+WARN [05-19|21:27:31.208] Synchronisation failed, dropping peer    peer=80b10284bdb584b793fe9a98b11ebdd1852b4d84b75df3eefabf0a07e0dd378e err="retrieved hash chain is invalid: syncing canceled (requested)"
+ERROR[05-19|21:27:31.208] Ethereum peer removal failed             peer=80b10284 err="peer not registered"
+INFO [05-19|21:27:31.208] Ethereum protocol stopped 
+INFO [05-19|21:27:31.209] Transaction pool stopped 
+INFO [05-19|21:27:31.211] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [05-19|21:27:31.212] Persisted trie from memory database      nodes=0 size=0.00B   time="2.868µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-19|21:27:31.212] Writing clean trie cache to disk         path=/Users/charlie/Library/Ethereum/geth/triecache threads=8
+INFO [05-19|21:27:31.233] Persisted the clean trie cache           path=/Users/charlie/Library/Ethereum/geth/triecache elapsed=20.584ms
+INFO [05-19|21:27:31.233] Blockchain stopped 
+INFO [05-19|21:27:39.190] Got interrupt, shutting down... 
